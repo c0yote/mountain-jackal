@@ -8,7 +8,16 @@ https://www.youtube.com/watch?v=IllVwt6CRJQ
 
 ![Alt text](screenshot.png?raw=true "Screenshot")
 
-## Development Environment
+## Basic Development Environment
+
+1. Install Python 3.4 (Version important!)
+2. Download the source.
+3. Extract it to a folder.
+4. Open a command prompt and change directory to the source folder.
+5. Run `pip install -r requirements.txt`
+6. Run `python demo.py`
+
+## Advanced Development Environment
 
 This section will explain how to setup the development environment for the application.
 
