@@ -2,7 +2,8 @@
 
 Supporting Great Uncle Bumblefuck's effort to build a Maglocking Radial Plasma CNC cutter.
 
-https://www.youtube.com/watch?v=IllVwt6CRJQ
+[AvE's Vidjeo](https://www.youtube.com/watch?v=IllVwt6CRJQ)
+[About this Sim Video](https://www.youtube.com/watch?v=w2XD-Sr_X1I)
 
 ## Screenshot
 
@@ -48,5 +49,7 @@ python demo.py
 Open `control.py` and you can create scenario code for the simulator to run through by replacing the code in the `algorithm` function.
 
 Right now it duplicates what AvE's machine is doing.
+
+This video explains how to use the simulation: https://www.youtube.com/watch?v=w2XD-Sr_X1I
 
 This code is hacky as fuck and was smashed out over the course of a couple hours in the middle of the night.  I can try to make it a little more robust or featureful if necessary.  Open an issue if there is a feature or change you need in order to support algorithm work.
