@@ -29,6 +29,11 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
+To run the simulation:
+```
+python demo.py
+```
+
 ## How to Try Algorithms
 
 Open `control.py` and you can create scenario code for the simulator to run through by replacing the code in the `algorithm` function.
