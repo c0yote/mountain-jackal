@@ -2,11 +2,13 @@ import math
 
 from control import SLIDE_DIST_PER_STEP_IN
 from control import ROTATE_DIST_PER_STEP_DEG
+from control import TOOL_START_DIST_IN
+from control import TOOL_START_ANGLE_DEG
 
 class Simulation:
   def __init__(self, control, center):
-    self._tool_distance = 3
-    self._tool_angle = 45
+    self._tool_distance = TOOL_START_DIST_IN
+    self._tool_angle = TOOL_START_ANGLE_DEG
     self._center = center
     
     x = self._tool_distance * math.cos(math.radians(self._tool_angle))
