@@ -4,6 +4,10 @@ Supporting Great Uncle Bumblefuck's effort to build a Maglocking Radial Plasma C
 
 https://www.youtube.com/watch?v=IllVwt6CRJQ
 
+## Screenshot
+
+![Alt text](screenshot.png?raw=true "Screenshot")
+
 ## Development Environment
 
 This section will explain how to setup the development environment for the application.
