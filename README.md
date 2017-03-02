@@ -12,7 +12,7 @@ Supporting Great Uncle Bumblefuck's effort to build a Maglocking Radial Plasma C
 
 ## Basic Development Environment
 
-1. Install Python 3.4 (Version important!)
+1. Install Python 3.4.4 (Version important!)
 2. Download the source.
 3. Extract it to a folder.
 4. Open a command prompt and change directory to the source folder.
@@ -23,7 +23,7 @@ Supporting Great Uncle Bumblefuck's effort to build a Maglocking Radial Plasma C
 
 This section will explain how to setup the development environment for the application.
 
-:warning: Python 3.4 is required until a bug is resolved for 3.5 or greater. :warning:
+:warning: **Python 3.4.4** is required until a bug is resolved for 3.5 or greater. :warning:
 
 Change to the project directory and create the virtual environment:
 ```
