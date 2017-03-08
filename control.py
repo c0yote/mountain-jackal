@@ -144,9 +144,9 @@ class Control:
     # Test Scenarios
     def test_square():  # Usage Test - square
       start_point = to_carte((TOOL_START_DIST_IN,TOOL_START_ANGLE_DEG))
-      point_1 = (4,25)
-      point_2 = (25,25)
-      point_3 = (25,4)
+      point_1 = (4,7)
+      point_2 = (7,7)
+      point_3 = (7,4)
       traverse(start_point, point_1)
       traverse(point_1, point_2)
       traverse(point_2, point_3)
@@ -167,8 +167,19 @@ class Control:
       traverse(point_2, point_3)
       traverse(point_3, start_point)
       
+    def test_arc_bug():
+      start_point = to_carte((TOOL_START_DIST_IN,TOOL_START_ANGLE_DEG))
+      point_1 = (-5,7)
+      point_2 = (-5,12)
+      point_3 = (12,12)
+      traverse(start_point, point_1)
+      traverse(point_1, point_2)
+      traverse(point_2, point_3)
+      traverse(point_3, start_point)
+    
     # Test Run
     test_big_catywompus_square()
+    #test_arc_bug()
     #test_square()
     #test_long_line_bad_angle()
 
@@ -179,7 +190,6 @@ class Control:
 FEED_SPEED_FPS = .167
 PIXELS_PER_INCH = 10
 SLIDE_DIST_PER_STEP_IN = .05
-ROTATE_DIST_PER_STEP_DEG = .9
 ROTATE_DIST_PER_STEP_DEG = .45
 TOOL_START_DIST_IN = 5.6568542494924
 TOOL_START_ANGLE_DEG = 45
